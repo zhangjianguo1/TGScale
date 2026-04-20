@@ -56,7 +56,7 @@ export default function QuestionnaireList() {
           <h1 className="text-2xl font-medium mb-6">{t('title')}</h1>
 
           {/* Search bar */}
-          <div className="mb-4 relative">
+          {/* <div className="mb-4 relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
             <Input
               type="search"
@@ -65,10 +65,10 @@ export default function QuestionnaireList() {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-          </div>
+          </div> */}
 
           {/* Tag filters */}
-          <TagFilters onTagsChange={handleTagsChange} />
+          {/* <TagFilters onTagsChange={handleTagsChange} /> */}
 
           {/* Questionnaire list */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

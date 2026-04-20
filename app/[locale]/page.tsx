@@ -14,11 +14,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   if (locale === 'en') {
     return {
-      title: 'TGScale - Free Mental Health Assessment Tools | Professional Psychological Scales',
-      description: 'Professional free mental health assessment platform. Includes Patient Health Questionnaire (PHQ-9), Beck Depression Inventory (BDI-II), Generalized Anxiety Disorder Scale (GAD-7), Insomnia Severity Index Scale (ISI), Perceived Stress Scale (PSS-10), Narcissistic Personality Inventory (NPI-16), Gender Dysphoria Test, ADHD Self-Report Scale, and more.',
-      keywords: 'mental health assessment, psychological scales, depression test, anxiety test, free mental health, Patient Health Questionnaire, PHQ-9, Beck Depression Inventory, BDI-II, Generalized Anxiety Disorder Scale, GAD-7, Insomnia Severity Index, Perceived Stress Scale, Narcissistic Personality Inventory, Gender Dysphoria Test, ADHD test, SCL-90, DASS-21',
+      title: 'TGScale - Professional Psychological Scales',
+      description: 'Professional health assessment platform. Includes Patient Health Questionnaire (PHQ-9), Beck Depression Inventory (BDI-II), Generalized Anxiety Disorder Scale (GAD-7), Insomnia Severity Index Scale (ISI), Perceived Stress Scale (PSS-10), Narcissistic Personality Inventory (NPI-16), Gender Dysphoria Test, ADHD Self-Report Scale, and more.',
+      keywords: 'mental health assessment, psychological scales, depression test, anxiety test, health, Patient Health Questionnaire, PHQ-9, Beck Depression Inventory, BDI-II, Generalized Anxiety Disorder Scale, GAD-7, Insomnia Severity Index, Perceived Stress Scale, Narcissistic Personality Inventory, Gender Dysphoria Test, ADHD test, SCL-90, DASS-21',
       openGraph: {
-        title: 'TGScale - Free Mental Health Assessment Tools',
+        title: 'TGScale',
         description: 'Professional mental health assessment platform with multiple free psychological scales',
         locale: 'en_US',
       },
@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
   
   return {
-    title: 'TGScale - 免费心理健康测评工具 | 专业心理量表测试平台',
-    description: '提供免费、专业的心理健康测评服务。包含患者健康问卷(PHQ-9)、贝克抑郁量表(BDI-II)、广泛性焦虑量表(GAD-7)、失眠严重程度指数量表(ISI)、感知压力量表(PSS-10)、自恋人格量表清单(NPI-16)、性别焦虑测试、成人ADHD自评量表等多种国际标准心理测评工具。',
-    keywords: '心理测评, 心理量表, 抑郁测试, 焦虑测试, 心理健康, 免费测评, 患者健康问卷, PHQ-9, 贝克抑郁量表, BDI-II, 广泛性焦虑量表, GAD-7, 失眠严重程度指数, 感知压力量表, 自恋人格量表, 性别焦虑测试, ADHD测试, SCL-90, DASS-21',
+    title: 'TGScale - 专业心理量表测试平台',
+    description: '提供专业的心理健康测评服务。包含患者健康问卷(PHQ-9)、贝克抑郁量表(BDI-II)、广泛性焦虑量表(GAD-7)、失眠严重程度指数量表(ISI)、感知压力量表(PSS-10)、自恋人格量表清单(NPI-16)、性别焦虑测试、成人ADHD自评量表等多种国际标准心理测评工具。',
+    keywords: '心理测评, 心理量表, 抑郁测试, 焦虑测试, 心理健康, 患者健康问卷, PHQ-9, 贝克抑郁量表, BDI-II, 广泛性焦虑量表, GAD-7, 失眠严重程度指数, 感知压力量表, 自恋人格量表, 性别焦虑测试, ADHD测试, SCL-90, DASS-21',
     openGraph: {
-      title: 'TGScale - 免费心理健康测评工具',
+      title: 'TG',
       description: '专业的心理健康测评平台，提供抑郁、焦虑、强迫症等多种免费心理量表测试',
       locale: 'zh_CN',
     },

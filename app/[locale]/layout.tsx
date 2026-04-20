@@ -18,11 +18,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'LXScale - Free Mental Health Assessment Tools | Professional Psychological Scales',
+  title: 'Professional Psychological Scales',
   description: 'Free professional mental health assessment platform. Includes depression scales (PHQ-9, BDI-II, SDS), anxiety scales (GAD-7, DASS-21), OCD scale (Y-BOCS), sleep scale (ISI), stress scale (PSS-10), and psychological symptom scale (SCL-90).',
   keywords: [
     'mental health', 'depression scale', 'anxiety scale', 'psychological assessment',
-    'free mental health test', 'online psychological evaluation',
+    'health test', 'online psychological evaluation',
     'PHQ-9', 'BDI-II', 'SDS', 'GAD-7', 'DASS-21', 'Y-BOCS', 'SCL-90', 'ISI', 'PSS-10',
     'depression screening', 'anxiety screening', 'OCD assessment', 'sleep quality', 'stress test',
     'psychological screening', 'mental health evaluation', 'psychological diagnosis',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://www.lxscale.xyz'),
+  metadataBase: new URL('https://'),
   alternates: {
     canonical: '/',
     languages: {
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'LXScale - Free Mental Health Assessment Tools 🧠',
+    title: 'LXScale - Health Assessment Tools 🧠',
     description: '🔬 Professional psychological assessment platform with AI analysis. Free depression, anxiety, OCD, and stress tests. Get instant results and professional insights.',
     url: 'https://www.lxscale.xyz',
     siteName: 'LXScale',
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
         url: '/apple-icon.png',
         width: 180,
         height: 180,
-        alt: 'LXScale - Free Mental Health Assessment Platform with AI Analysis',
+        alt: 'LXScale - Health Assessment Platform with AI Analysis',
       },
     ],
   },
@@ -67,11 +67,11 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@LXDAO_Official',
     creator: '@0xhardman', 
-    title: 'LXScale - Free Mental Health Assessment Tools 🧠',
+    title: 'LXScale - Health Assessment Tools 🧠',
     description: '🔬 Professional psychological scales | 🤖 AI analysis | 📊 Instant results | 🆓 Completely free - Start your mental health assessment now!',
     images: {
       url: '/apple-icon.png',
-      alt: 'LXScale - Free Mental Health Assessment Platform with AI Analysis',
+      alt: 'LXScale - Health Assessment Platform with AI Analysis',
     },
   },
   robots: {

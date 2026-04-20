@@ -70,7 +70,7 @@ export function Questionnaire({
     null
   );
   // Control the display state of the progress panel
-  const [showProgressPanel, setShowProgressPanel] = useState(true);
+  const [showProgressPanel, setShowProgressPanel] = useState(false);
 
   // Number of questions per page
   const questionsPerPage = 5;

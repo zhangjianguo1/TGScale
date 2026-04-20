@@ -149,13 +149,13 @@ export const QUESTIONNAIRE_KEYWORDS: Record<string, Record<string, string[]>> = 
  */
 export const GENERAL_MENTAL_HEALTH_KEYWORDS: Record<string, string[]> = {
   'zh': [
-    '免费心理测试', '免费心理评估', '免费心理筛查', '权威心理量表', '专业心理测评', 
+    '心理测试', '心理评估', '心理筛查', '权威心理量表', '专业心理测评', 
     'AI心理分析', 'AI智能分析', '人工智能心理测评', '免费AI分析', '权威心理诊断',
     '标准化心理量表', '临床心理评估', '专业免费测试', '国际标准量表', '科学心理测评',
     '心理健康', '心理测评', '心理筛查', '心理评估', '精神健康', '心理量表'
   ],
   'en': [
-    'free mental health test', 'free psychological assessment', 'free mental health screening', 
+    'health test', 'free psychological assessment', 'health screening', 
     'authoritative psychological scale', 'professional mental health assessment', 'AI psychological analysis',
     'AI-powered mental health', 'artificial intelligence psychology', 'free AI analysis', 'clinical assessment',
     'standardized psychological test', 'evidence-based assessment', 'professional free test', 'validated scale',

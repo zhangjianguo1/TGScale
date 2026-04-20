@@ -14,17 +14,17 @@ export function Navbar() {
   return (
     <header className="border-b">
       <div className="container flex items-center justify-between h-14 px-4 max-w-6xl mx-auto">
-        <div className="flex items-center">
+        {/* <div className="flex items-center"> */}
           {/* <Link
             href="/"
             className="text-lg font-medium flex items-center gap-2"
           > */}
-            <div className="w-8 h-8 border rounded flex items-center justify-center">
+            {/* <div className="w-8 h-8 border rounded flex items-center justify-center">
               TG
             </div>
-            <span className='hidden md:block'>{'TGScale'}</span>
+            <span className='hidden md:block'>{'TGScale'}</span> */}
           {/* </Link> */}
-        </div>
+        {/* </div> */}
         <nav className="flex items-center gap-4 text-sm">
           {/* <Link
             href="/"

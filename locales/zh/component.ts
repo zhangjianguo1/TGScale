@@ -227,7 +227,7 @@ export default {
             },
         },
         list: {
-            title: '问卷',
+            title: ' ',
             searchPlaceholder: '搜索...',
             detailButton: '开始评测',
             noMatch: '未找到匹配的问卷',
@@ -236,7 +236,7 @@ export default {
     navBar: {
         title: 'LXScale',
         introduce: '介绍',
-        questionsList: '问卷',
+        questionsList: ' ',
         rescues: '开源仓库',
     },
 } as const;
