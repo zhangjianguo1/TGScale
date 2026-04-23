@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://'),
+  metadataBase: new URL('https://www.lxscale.xyz'),
   alternates: {
     canonical: '/',
     languages: {
