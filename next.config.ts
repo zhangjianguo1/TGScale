@@ -1,11 +1,15 @@
 import type { NextConfig } from "next";
 
-import { setupDevPlatform } from '@cloudflare/next-on-pages/next-dev';
-
 const nextConfig: NextConfig = {
   // output: "standalone",
   images: {
-    domains: ["avatars.githubusercontent.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        pathname: '/**',
+      },
+    ],
   },
   // Add custom static resource path configuration
   async rewrites() {
@@ -17,9 +21,5 @@ const nextConfig: NextConfig = {
     ];
   },
 };
-
-if (process.env.NODE_ENV === 'development') {
-  await setupDevPlatform();
-}
 
 export default nextConfig;

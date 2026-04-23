@@ -6,6 +6,8 @@ import { questionnairesEn } from '@/questionairies/en';
 import { Questionnaire as QuestionnaireType } from '@/types';
 import { generateQuestionnaireMetadata, generateQuestionnaireStructuredData } from '@/lib/seo-metadata';
 
+export const runtime = 'edge';
+
 interface PageProps {
   params: Promise<{ id: string; locale: string }>;
 }
