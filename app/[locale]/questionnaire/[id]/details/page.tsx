@@ -6,6 +6,9 @@ import { questionnairesEn } from '@/questionairies/en';
 import { Questionnaire as QuestionnaireType } from '@/types';
 import { generateQuestionnaireMetadata, generateQuestionnaireStructuredData } from '@/lib/seo-metadata';
 
+export const preferredRegion = 'auto';
+export const dynamic = 'force-dynamic'; // 确保不走静态生成
+
 interface PageProps {
   params: Promise<{ id: string; locale: string }>;
 }

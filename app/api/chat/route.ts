@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 
+// app/api/chat/route.ts
+export const runtime = 'edge';
+
 // Deepseek API Key - prioritize environment variables
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 

@@ -14,6 +14,9 @@ import { ResultAnalysis } from '@/components/questionnaire/result/analysis/Resul
 import { useQuestionnaire } from '@/hooks/useQuestionnaire';
 import { useScopedI18n } from '@/locales/client';
 
+export const preferredRegion = 'auto';
+export const dynamic = 'force-dynamic'; // 确保不走静态生成
+
 export default function QuestionnaireResultPage({
   params,
 }: {
