@@ -36,5 +36,5 @@ export const config = {
         "/((?!api|_next/static|_next/image|favicon.ico|sitemap\\.xml|robots\\.txt|manifest\\.json|sw\\.js|apple-icon\\.png|icon0\\.svg|icon1\\.png).*)",
         "/share/:path*"
     ],
-    runtime: 'edge',
+    runtime: 'experimental-edge',
 };
