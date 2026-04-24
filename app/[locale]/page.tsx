@@ -5,7 +5,6 @@ import { ContributorsSection } from '@/components/home/ContributorsSection';
 import { SupportSection } from '@/components/home/SupportSection';
 import { Metadata } from 'next';
 
-export const runtime = 'edge';
 interface PageProps {
   params: Promise<{ locale: string }>;
 }

@@ -1,8 +1,6 @@
 import QuestionnaireList from '@/components/questionnaire/List';
 import { Metadata } from 'next';
 
-export const runtime = 'edge';
-
 interface PageProps {
   params: Promise<{ locale: string }>;
 }
