@@ -7,6 +7,9 @@ import { Navbar } from '@/components/Navbar';
 import { I18nProviderClient } from '@/locales/client';
 import { Toaster } from "@/components/ui/sonner"
 
+// app/[locale]/layout.tsx
+export const runtime = 'edge'; // 所有子路由都会继承
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],

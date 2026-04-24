@@ -5,9 +5,6 @@ import { Questionnaire } from '@/components/questionnaire/test/QuestionnaireTest
 import { useQuestionnaire } from '@/hooks/useQuestionnaire';
 import { Questionnaire as QuestionnaireType } from '@/types';
 
-export const preferredRegion = 'auto';
-export const dynamic = 'force-dynamic'; // 确保不走静态生成
-
 export default function QuestionnairePage({
   params,
 }: {

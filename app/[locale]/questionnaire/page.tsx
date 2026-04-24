@@ -1,9 +1,6 @@
 import QuestionnaireList from '@/components/questionnaire/List';
 import { Metadata } from 'next';
 
-export const preferredRegion = 'auto';
-export const dynamic = 'force-dynamic'; // 确保不走静态生成
-
 interface PageProps {
   params: Promise<{ locale: string }>;
 }
