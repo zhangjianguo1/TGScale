@@ -2,7 +2,7 @@ import { createI18nMiddleware } from "next-international/middleware";
 import { NextRequest, NextResponse } from "next/server";
 
 // ✅ 关键：强制中间件和所有经过它的路由使用 Edge Runtime
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 const I18nMiddleware = createI18nMiddleware({
     locales: ["zh", 'en'],
